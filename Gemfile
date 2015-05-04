@@ -16,7 +16,7 @@ group :development, :test do
 end
 gem 'activerecord-tableless'
 gem 'bootstrap-sass'
-gem 'goole_drive'
+gem 'google_drive'
 gem 'high_voltage'
 gem 'pg'
 gem 'puma'
