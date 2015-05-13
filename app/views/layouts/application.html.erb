@@ -8,14 +8,32 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
   </head>
-  <body>   
+  <body>
+  <div id="wrapper">
     <header>
       <%= render 'layouts/navigation' %>
     </header>
     <main role="main">
        <%= render 'layouts/messages' %>
        <%= yield %>
-    </main>
+    </main>             
+ 
+ <!-- footer using navbar method at the bottom -->
+   <div class = "navbar navbar-inverse navbar-fixed-bottom">
+ 
+     <div class = "container">
+       <p class = "navbar-text navbar-left"> Hohn &amp; Company, LLC</p>
+
+       <p class = "navbar-text navbar-right"> Copyright &copy; 2008-2015 </p>
+       <p class = "navbar-text navbar-right">email: inquiries@hohnco.com </p>
+      
+     </div>
+ 
+   </div>
+ 
+ </div><!-- #wrapper -->
+ 
  </body>
+ 
 </html>
   

@@ -39,6 +39,16 @@ html,body{
   padding:0
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
 main {
   @extend .container;
   background-color: #eee;
@@ -57,17 +67,84 @@ section {
   margin-top: 20px;
   }
 
+
 .jumbotron {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  height:300px
+  height:80px
 }
 
-#divHome {
-  background-image: url("U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg");
+.page-header {
+  border-bottom: 2px solid;
+  border-bottom-color: #686868;
+  margin-left: 5%;
+  margin-right: 5%
+}
+
+#wrapper {
+  min-height: 980px;
+  position:relative;
+  background-color: #eee;
   background-size: cover;
-  background-repeat: no repeat;
-  height: 250px;
-  padding: 15px
+}
+
+
+#divHome {
+  background: url("U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#divContact {
+  background: url("StrategyPlanScrabble.jpg");
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  height:250px;
+  background-position: center top;
+}
+
+#AboutMain {
+  width: 100%;
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+}
+
+
+#divAboutImg {
+  background: url("ConsultingImage.jpg");
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  height:250px;
+  background-position: center;
+  padding: 5px;
+}
+
+
+#divAbout {
+  margin-top: 50px;
+  padding: 15px;
+  text-position: center;
+}
+
+#divFooter {
+  position-fixed: left;
+  position: bottom;
+  height: 100px;
+  padding: 10px;
+  background-color: #303030;
+  color: #e0e0e0;
+  background-size: cover;
+  background: scroll 0% 0%
+}
+
+#textFooter {
+  position: left;
+  position: bottom
 }
