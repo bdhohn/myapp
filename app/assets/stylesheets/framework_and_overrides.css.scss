@@ -75,11 +75,53 @@ section {
   height:80px
 }
 
+#grayborder {
+  border: 2px #686868;
+}
+
+.custom {
+  position: fixed;
+  background-color: #282828;
+  border-radius: 5px;
+  padding: 10px;
+  color: #C8C8C8;
+  font-weight: bold;
+}
+
+ .custom .active a, .custom .active a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-pills > li > a {
+  color: #C8C8C8;
+//  font-weight: bold;
+}
+
+.nav-pills > li > a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+
+
+a.anchor {display: block; position: relative; top: -70px; visibility: hidden;}
+
 .page-header {
   border-bottom: 2px solid;
   border-bottom-color: #686868;
   margin-left: 5%;
   margin-right: 5%
+}
+
+.Tab1 {
+  padding-left: 2%;
+  margin-left: 2%;
+}
+
+.Tab2 {
+  padding-left: 4%;
+  margin-left: 4%;
 }
 
 #wrapper {
@@ -89,8 +131,52 @@ section {
   background-size: cover;
 }
 
+#wrapper2 {
+  min-height: 280px;
+  position:relative;
+  background-color: white;
+  background-size: cover;
+  margin-bottom: 25px;
+  padding-left: 5px;
+}
+
+#wrapper3 {
+  min-height: 480px;
+  position:relative;
+  background-color: #eee;
+  background-size: cover;
+  padding-left: 5px;
+}
+
+#wrapper3A {
+  min-height: 280px;
+  position:relative;
+  background-color: #eee;
+  background-size: cover;
+  padding-left: 5px;
+}
 
 #divHome {
+  background: url("U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#divCapabilities {
+  background: url("FivePillarsCapabilities060115.png");
+  background-size: cover;
+  background-repeat: no-repeat;  
+  min-height: 570px;
+  position:relative;
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+#divCap {
   background: url("U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg");
   background-size: cover;
   background-repeat: no-repeat;
